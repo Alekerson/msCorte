@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-    <title>Desenvolvedor</title>
+    <title>Ms.Corte</title>
 </head>
 
 <body>
@@ -34,9 +34,8 @@
                 </button>
 
                 <div class="">
-                    <a class="navbar-brand ms-2" style="color: #fff;" href="formulario.html"><img
-                            src="../image/barba_white.png" alt="Logo MS.Corte" class="logonav">
-                        Dev</a>
+                    <img src="../image/barba_white.png" alt="Logo MS.Corte" class="logonav">
+                    <a class="navbar-brand ms-2" style="color: #fff;" href="formulario.html">Dev</a>
                 </div>
 
                 <section>
@@ -59,7 +58,7 @@
 
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href=""><i
+                                <a class="nav-link active text-light" aria-current="page" href="desenvolvedor.html"><i
                                         class="pe-2 fa-solid fa-circle-info" style="color: #ffffff;"></i>
                                     Desenvolvedor</a>
                             </li>
@@ -72,46 +71,49 @@
         </nav>
     </header>
 
-    <main class="d-flex align-items-center">
-        <section class="row ">
-            <div class="col-8 mx-auto d-flex flex-column align-items-center">
-                <img src="../image/barba_black.png" alt="Alekerson Mendes"
-                    class="rounded-circle img- w-50 border border-black ">
-                <h2 class="fw-normal">Alekerson Mendes</h2>
-                <p class="text-center">Estudante de Anàlise e desenvolvimento de sistema com conhecimento em Js, Python,
-                    Html, CSS, Banco de Dados(MYsql e NOsql)</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Entre em Contato
-                </button>
+    <main class="d-flex align-items-center justify-content-center">
+        <div class="col-8 d-flex flex-column">
+            <figure class="d-flex justify-content-center ">
+                <img src="../image/dev1.jpg" alt="" class="foto rounded-circle">
+            </figure>
+            <section class="alinhamento">
+                <h3>Alekerson Mendes</h3>
+                <p>Sou estudante de Análise e desenvolvimento de sistemas com algumas experiências em JavaScript, HTML,
+                    CSS, Python e Banco de dados(MYsql e Nosql)
+                </p>
+            </section>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Ver Mais
+            </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Alekerson Mendes</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <a href=""> <i class="fa-brands fa-github" style="color: #000000;"></i> GitHub</a>
-                                <hr>
-                                <a href=""><i class="fa-brands fa-linkedin" style="color: #000000;"></i> Linkedin</a>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Alekerson Mendes</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex flex-column">
+                            <a href="https://github.com/Alekerson" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i> Git hub</a>
+                            
+                            <hr style="color: black;">
+
+                            <a href="https://www.linkedin.com/in/alekerson-mendes-46b30a222" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i> Linkedin</a>
+                            
+                            <hr style="color: black;">
+                            
+                            <a href="https://www.instagram.com/alekerson_mendes/" style="text-decoration: none;" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i>Instagram</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
-    <footer class="bgcfooter text-center mt-5 d-flex align-items-center flex-column">
+    <footer class="bgcfooter text-center mt-5 d-flex align-items-center flex-column sticky-sm-bottom">
         <div class="mt-2">
             <a class="me-3" href="https://instagram.com/_ms.corte?utm_source=qr&igshid=YzU1NGVlODEzOA=="
                 target="_blank"><i class="fa-brands fa-instagram" style="color: #d92e7f"></i></a>

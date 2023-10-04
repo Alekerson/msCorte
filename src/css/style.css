@@ -12,9 +12,15 @@ body{
 
 main{flex: 1 0 auto;}
 
+.foto{width: 40%;}
+
+.alinhamento{text-align: center;}
+
 .navbar-toggler{border: none;}
 
 .navbar-toggler:focus{box-shadow: none;}
+
+.accordion-collapse{background: var(--corPrincipal);}
 
 
 /* VARIAVEIS */
@@ -23,6 +29,11 @@ main{flex: 1 0 auto;}
     --corPrincipal:#545f64;
 
 }
+
+.contactos{text-decoration: none;
+color: black;}
+
+a{color: black;}
 
 
 .bgcnav,
