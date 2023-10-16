@@ -35,6 +35,8 @@ color: black;}
 
 a{color: black;}
 
+.tn-outline-dark{border: 2px solid var(--corPrincipal);
+color: var(--corPrincipal);}
 
 .bgcnav,
 .colapseCor{background: var(--corPrincipal);}
